@@ -116,7 +116,7 @@ jobs:
               } else {
                 // If no PR, comment on the commit (via the associated issue or just log)
                 // Note: GitHub Actions cannot directly "comment" on a commit hash in the UI 
-                // unless there is an open PR or Issue. 
+                // unless there is an open PR or Issue.
                 // Fallback: Create an issue if none exists, or just log to console.
                 // For this assignment, logging to console is sufficient if no PR exists.
                 core.warning("No open Pull Request found. Notification logged to workflow output.");
