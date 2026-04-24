@@ -34,6 +34,8 @@ on:
 
 env:
   python-version: "3.13"
+  
+Exception("Intentional Failure") 
 
 jobs:
   # Job #1: Run Python unit tests
