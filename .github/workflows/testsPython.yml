@@ -14,7 +14,7 @@
 #   2. Set up Python environment using a custom action
 #   3. Run unit tests and report results
 #
-# Notes:
+# Notes: 
 #   - secrets are set in https://github.com/smarter-sh/smarter/settings/secrets/actions
 #   - Integrates with Codecov for coverage reporting
 ###############################################################################
